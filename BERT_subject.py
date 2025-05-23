@@ -75,3 +75,5 @@ from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(filtered_df["queue"], filtered_df["subcategory"])
 print(f"Accuracy: {accuracy:200%}")
 print(filtered_df[['subcategory','queue']].head(20).to_string(index=False))
+
+
